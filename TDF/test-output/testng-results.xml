@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T22:12:34 IST" name="TDF Dashboard Automation Test" finished-at="2024-08-06T22:13:27 IST" duration-ms="52651">
+    <groups>
+    </groups>
+    <test started-at="2024-08-06T22:12:34 IST" name="TDF Application Test Cases" finished-at="2024-08-06T22:13:27 IST" duration-ms="52651">
+      <class name="com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:34 IST" name="setup" finished-at="2024-08-06T22:12:42 IST" duration-ms="8146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTitle()[pri:1, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:42 IST" name="VerifyTitle" finished-at="2024-08-06T22:12:42 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:42 IST" name="teardown" finished-at="2024-08-06T22:12:45 IST" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:45 IST" name="setup" finished-at="2024-08-06T22:12:50 IST" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTypesofdatasource()[pri:2, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:50 IST" name="VerifyTypesofdatasource" finished-at="2024-08-06T22:12:51 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTypesofdatasource -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:51 IST" name="teardown" finished-at="2024-08-06T22:12:51 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:51 IST" name="setup" finished-at="2024-08-06T22:12:54 IST" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogo()[pri:3, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:54 IST" name="VerifyLogo" finished-at="2024-08-06T22:12:54 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:54 IST" name="teardown" finished-at="2024-08-06T22:12:54 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:54 IST" name="setup" finished-at="2024-08-06T22:12:59 IST" duration-ms="4416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigatetoRestAPiPage()[pri:4, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:59 IST" name="NavigatetoRestAPiPage" finished-at="2024-08-06T22:12:59 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoRestAPiPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest@59402b8f]" started-at="2024-08-06T22:12:59 IST" name="teardown" finished-at="2024-08-06T22:12:59 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest -->
+      <class name="com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test@2ab4bc72]" started-at="2024-08-06T22:13:08 IST" name="setup" finished-at="2024-08-06T22:13:19 IST" duration-ms="10377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifytitleMSSQL()[pri:1, instance:com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test@2ab4bc72]" started-at="2024-08-06T22:13:19 IST" name="VerifytitleMSSQL" finished-at="2024-08-06T22:13:19 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifytitleMSSQL -->
+        <test-method signature="FillMssqlData()[pri:2, instance:com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test@2ab4bc72]" started-at="2024-08-06T22:13:19 IST" name="FillMssqlData" finished-at="2024-08-06T22:13:26 IST" duration-ms="7604" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button _ngcontent-mmg-c51="" type="button" class="btn btn-primary btn-sm btn-round">...</button> is not clickable at point (149, 186). Other element would receive the click: <ngb-modal-window role="dialog" tabindex="-1" aria-modal="true" class="d-block modal myCustomModalClass fade">...</ngb-modal-window>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85514d11cfa37ea9c6241bfa08ab2259, clickElement {id=f.B56D774DF147BFDDD8C8E43366962E31.d.BD215651F86406FBA0DDB732095CCFEA.e.20}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64874/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (85514d11cfa37ea9c6241bfa08ab2259)] -> xpath: //button[contains(text(),'MS SQL')]]
+Session ID: 85514d11cfa37ea9c6241bfa08ab2259]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-mmg-c51="" type="button" class="btn btn-primary btn-sm btn-round">...</button> is not clickable at point (149, 186). Other element would receive the click: <ngb-modal-window role="dialog" tabindex="-1" aria-modal="true" class="d-block modal myCustomModalClass fade">...</ngb-modal-window>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85514d11cfa37ea9c6241bfa08ab2259, clickElement {id=f.B56D774DF147BFDDD8C8E43366962E31.d.BD215651F86406FBA0DDB732095CCFEA.e.20}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64874/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (85514d11cfa37ea9c6241bfa08ab2259)] -> xpath: //button[contains(text(),'MS SQL')]]
+Session ID: 85514d11cfa37ea9c6241bfa08ab2259
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.engqa.TDF.pages.TDF_MSsqlPage.TDF_MSSQL_Configurationpage(TDF_MSsqlPage.java:92)
+at com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test.FillMssqlData(TDF_MS_SQL_ConfugrationPage_Test.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillMssqlData -->
+      </class> <!-- com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test -->
+      <class name="com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest@3de8f619]" started-at="2024-08-06T22:12:59 IST" name="setup" finished-at="2024-08-06T22:13:05 IST" duration-ms="6009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifytitleResetapi()[pri:1, instance:com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest@3de8f619]" started-at="2024-08-06T22:13:05 IST" name="VerifytitleResetapi" finished-at="2024-08-06T22:13:05 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifytitleResetapi -->
+        <test-method signature="EnterRestAPidata()[pri:2, instance:com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest@3de8f619]" started-at="2024-08-06T22:13:05 IST" name="EnterRestAPidata" finished-at="2024-08-06T22:13:08 IST" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterRestAPidata -->
+      </class> <!-- com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest -->
+    </test> <!-- TDF Application Test Cases -->
+  </suite> <!-- TDF Dashboard Automation Test -->
+</testng-results>

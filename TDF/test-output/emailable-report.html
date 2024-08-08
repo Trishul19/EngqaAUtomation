@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TDF Dashboard Automation Test</th></tr>
+<tr><td><a href="#t0">TDF Application Test Cases</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,651</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TDF Dashboard Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TDF Application Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test</td><td><a href="#m0">FillMssqlData</a></td><td rowspan="1">1722962599389</td><td rowspan="1">7604</td></tr><tr><th colspan="4">TDF Application Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest</td><td><a href="#m1">NavigatetoRestAPiPage</a></td><td rowspan="1">1722962579140</td><td rowspan="1">160</td></tr><tr class="passedeven"><td><a href="#m2">VerifyLogo</a></td><td rowspan="1">1722962574120</td><td rowspan="1">86</td></tr><tr class="passedeven"><td><a href="#m3">VerifyTitle</a></td><td rowspan="1">1722962562555</td><td rowspan="1">49</td></tr><tr class="passedeven"><td><a href="#m4">VerifyTypesofdatasource</a></td><td rowspan="1">1722962570758</td><td rowspan="1">266</td></tr><tr class="passedodd"><td rowspan="2">com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest</td><td><a href="#m5">EnterRestAPidata</a></td><td rowspan="1">1722962585527</td><td rowspan="1">3270</td></tr><tr class="passedodd"><td><a href="#m6">VerifytitleResetapi</a></td><td rowspan="1">1722962585489</td><td rowspan="1">36</td></tr><tr class="passedeven"><td rowspan="1">com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test</td><td><a href="#m7">VerifytitleMSSQL</a></td><td rowspan="1">1722962599177</td><td rowspan="1">208</td></tr></tbody>
+</table>
+<h2>TDF Application Test Cases</h2><h3 id="m0">com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test#FillMssqlData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-mmg-c51=&quot;&quot; type=&quot;button&quot; class=&quot;btn btn-primary btn-sm btn-round&quot;&gt;...&lt;/button&gt; is not clickable at point (149, 186). Other element would receive the click: &lt;ngb-modal-window role=&quot;dialog&quot; tabindex=&quot;-1&quot; aria-modal=&quot;true&quot; class=&quot;d-block modal myCustomModalClass fade&quot;&gt;...&lt;/ngb-modal-window&gt;
+  (Session info: chrome=127.0.6533.89)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85514d11cfa37ea9c6241bfa08ab2259, clickElement {id=f.B56D774DF147BFDDD8C8E43366962E31.d.BD215651F86406FBA0DDB732095CCFEA.e.20}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64874/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (85514d11cfa37ea9c6241bfa08ab2259)] -&gt; xpath: //button[contains(text(),&apos;MS SQL&apos;)]]
+Session ID: 85514d11cfa37ea9c6241bfa08ab2259
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.engqa.TDF.pages.TDF_MSsqlPage.TDF_MSSQL_Configurationpage(TDF_MSsqlPage.java:92)
+	at com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test.FillMssqlData(TDF_MS_SQL_ConfugrationPage_Test.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest#NavigatetoRestAPiPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest#VerifyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest#VerifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest#VerifyTypesofdatasource</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest#EnterRestAPidata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest#VerifytitleResetapi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test#VerifytitleMSSQL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

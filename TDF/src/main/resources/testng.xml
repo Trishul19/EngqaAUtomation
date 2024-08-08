@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TDF Dashboard Automation Test">
+
+	<listeners>
+		<listener class-name="com.engqa.TDF.ExtenetReport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="TDF Application Test Cases">
+		<classes>
+			<class name="com.engqa.TDF.TestCases.TDFDatasourceConfigurationPageTest"></class>
+			<class name="com.engqa.TDF.TestCases.TDFRestApiConfugrationPageTest"></class>
+			<class name="com.engqa.TDF.TestCases.TDF_MS_SQL_ConfugrationPage_Test"></class>
+			
+
+		</classes>
+	</test>
+</suite>
